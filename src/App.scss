@@ -1,0 +1,38 @@
+/* Set main BG color and font*/
+  @import './Assets/styles/Settings.scss';
+  @import './Assets/styles/ServicesSmall.scss';
+  @import './Assets/styles/Navi.scss';
+  @import './Assets/styles/SlimNav.scss';
+  @import './Assets/styles/ImgSpin.scss';
+  @import './Assets/styles/AboutUsSmall.scss';
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+/* Set button colors */
+.btn-primary {
+  color: #fff;
+  background-color: $lightGreen;
+  border-color: $lightGreen;
+}
+.btn-primary:hover {
+  color: $lightGreen;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+a {
+  color: $lightGreen;
+}
+a:hover{
+  text-decoration:none;
+  color: $darkGreen;
+}
+
+
+
+
+
+

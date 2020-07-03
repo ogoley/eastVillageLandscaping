@@ -1,0 +1,75 @@
+/* ServicesSmall component */
+.servicesSmallTitle {
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: 0 0 1px 0;
+}
+.serviceSmall p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.serviceSmall {
+  border: 6px solid $borderGrey;
+  border-radius: 1px;
+  padding: 1rem;
+}
+
+/* display:inline; */
+.serviceSmall h1 {
+  color: $lightGreen;
+}
+.serviceContainer .imgContainer img {
+  max-width: 100%;
+}
+.serviceContainer {
+  font-family: "Lora", serif;
+  width: 100%;
+}
+.serviceContainer p {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+}
+.serviceContainer h5 {
+  font-weight: 700;
+}
+.serviceContainer a {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pushLinkDown {
+  position: absolute;
+  bottom: 3px;
+}
+
+.sameLine {
+  color: $lightGreen;
+}
+
+.servicesSmallReadMe {
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: 0 0 1px 0;
+  
+}
+
+.servicesSmallReadMe a {
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  .servicesSmallReadMe {
+    border-style: none;
+    border-color: none;
+    border-width: none;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .serviceContainer {
+    width: 70%;
+  }
+  
+}

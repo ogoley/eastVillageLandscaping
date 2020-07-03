@@ -1,0 +1,38 @@
+.carousel {
+  margin-top: 0px;
+}
+.carousel-item {
+  height: 650px;
+  background-color: black;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 650px;
+  opacity: 0.6;
+  
+
+  
+}
+.carousel-caption {
+  top: 3rem;
+}
+.carousel-caption p {
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.carousel-caption h3 {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+/* Green/white slash border */
+@media (min-width: 992px) {
+  .carousel-caption {
+    width: 40%;
+    top: 12rem;
+  }
+}
