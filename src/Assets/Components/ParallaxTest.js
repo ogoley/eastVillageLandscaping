@@ -9,8 +9,7 @@ export default function ParallaxTest() {
             strength={200}
             style={{"background-repeat": "repeat", "background-size":"initial"}}
         >
-            Put some text content here - even an empty div with fixed dimensions to have a height
-            for the parallax.
+            Parallax test
             <div style={{ height: '200px' }} />
         </Parallax>
   )
