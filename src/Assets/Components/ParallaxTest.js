@@ -7,7 +7,7 @@ export default function ParallaxTest() {
             bgImage={require("../images/testPattern2.png")}
             bgImageAlt="the cat"
             strength={200}
-            style={{"background-repeat": "repeat", "background-size":"initial"}}
+            bgStyle={{"background-repeat": "repeat"}}
         >
             Parallax test
             <div style={{ height: '200px' }} />
