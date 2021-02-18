@@ -4,7 +4,9 @@
   @import './Assets/styles/Navi.scss';
   @import './Assets/styles/SlimNav.scss';
   @import './Assets/styles/ImgSpin.scss';
-  @import './Assets/styles/AboutUsSmall.scss';
+  @import './Assets/styles/ContactAndAbout.scss';
+  @import './Assets/styles/AboutUs.scss';
+  @import './Assets/styles/ContactUs.scss';
 
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -31,7 +33,13 @@ a:hover{
   color: $darkGreen;
 }
 
+input {
+  border-radius:0!important;
+}
 
+textarea {
+  border-radius:0!important;
+}
 
 
 

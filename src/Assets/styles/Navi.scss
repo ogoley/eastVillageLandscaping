@@ -16,7 +16,7 @@
   font-weight: 700;
 }
 .navbar-nav a,
-.navbar-nav .dropdown {
+.navbar-nav {
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -43,14 +43,19 @@
   .navbar-brand,
   .navbar-collapse {
     width: 50%;
+    height:100%;
   }
-  .navbar-collapse::before {
+  
+  .middleBorder {
     height: 100%;
     content: "";
     border-style: solid;
     border-color: transparent transparent transparent #ffffff;
     border-width: 0 0 95px 40px;
+    background-color:$lightGreen;
   }
+
+
   .navbar-collapse::after {
     content: "";
     top: 0;
@@ -71,7 +76,7 @@
     top: calc(50% - 4px);
     width: 4px;
     height: 4px;
-    background-color: $lightGreen;
+    background-color: $darkGreen;
     border-radius: 50%;
   }
   .navbar-expand-lg .navbar-nav .nav-link {

@@ -1,0 +1,26 @@
+.aboutUsContainer {
+  // background-image: url("../images/twigs.jpg");
+  background-repeat: repeat;
+  background-color: rgb(58, 58, 58);
+  position: relative;
+  font-family: "Lora", serif;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .aboutUsRow {
+    width: 75%;
+  }
+}
+
+.aboutUsContainer .imgContainer img {
+  max-width: 100%;
+}
+
+.aboutUsTitle {
+  color: white;
+}
+
+.aboutUsCol {
+  width: 100%;
+}

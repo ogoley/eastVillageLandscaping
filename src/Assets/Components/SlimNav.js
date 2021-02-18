@@ -6,7 +6,6 @@ export default function SlimNav() {
     <Navbar className="slimNav" expand="lg">
       <Row className="mx-auto">
         <Col md={6} className="phone">
-          {" "}
           <a href="Tel: 413-847-0617">413-847-0617</a>
         </Col>
         <Col className="location" md={6}>

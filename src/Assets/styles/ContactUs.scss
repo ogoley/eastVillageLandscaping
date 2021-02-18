@@ -1,0 +1,29 @@
+.contactUs {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  font-family: $primaryFont;
+}
+
+.contactUsTitle {
+  color: $brightGreen;
+  text-align: center;
+  border-bottom: 1px solid #818181;
+  display: table;
+  margin: auto;
+}
+
+.contactInput {
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+.contactUs input,
+.contactUs textarea {
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.contactUs button {
+  display: table;
+}

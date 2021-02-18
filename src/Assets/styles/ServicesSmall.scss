@@ -4,12 +4,13 @@
   border-color: #dcdcdc;
   border-width: 0 0 1px 0;
 }
+
 .serviceSmall p {
   font-size: 1.2rem;
   font-weight: 400;
 }
 .serviceSmall {
-  border: 6px solid $borderGrey;
+  border: 6px solid white;
   border-radius: 1px;
   padding: 1rem;
 }
@@ -18,30 +19,33 @@
 .serviceSmall h1 {
   color: $lightGreen;
 }
+
 .serviceContainer .imgContainer img {
   max-width: 100%;
+  width: 100%;
 }
+
 .serviceContainer {
   font-family: "Lora", serif;
   width: 100%;
 }
+
 .serviceContainer p {
-  color: grey;
+  color: #a5a5a5;
   font-family: "Roboto", sans-serif;
   font-size: 0.9rem;
 }
+
 .serviceContainer h5 {
   font-weight: 700;
 }
+
 .serviceContainer a {
   font-size: 1rem;
   font-weight: 700;
 }
 
-.pushLinkDown {
-  position: absolute;
-  bottom: 3px;
-}
+
 
 .sameLine {
   color: $lightGreen;
@@ -64,12 +68,24 @@
     border-color: none;
     border-width: none;
   }
+  .serviceSmall {
+    border: 6px solid $borderGrey;
+    border-radius: 1px;
+    padding: 1rem;
+  }
+  .pushLinkDown {
+    position: absolute;
+    bottom: 3px;
+  }
   
 }
 
 @media (min-width: 1200px) {
   .serviceContainer {
-    width: 70%;
+    width: 75%;
   }
-  
+}
+
+.serviceContainer h1, .serviceContainer h2, .serviceContainer h4, .serviceContainer h5 {
+  font-family: $primaryFont;
 }
