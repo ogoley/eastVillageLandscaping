@@ -1,10 +1,10 @@
 .bg-light {
-  background-color: white!important;
+  background-color: white !important;
 }
 .customNav {
   margin: auto;
   padding: 0;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand {
@@ -21,15 +21,15 @@
   margin-bottom: auto;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: a2c046;
 }
 .navbar-toggler {
-  position:absolute;
-  right:2.3rem;
-  top:1.5rem;
+  position: absolute;
+  right: 2.3rem;
+  top: 1.5rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: $largeMinPx) {
   .customNav {
     width: 100%;
     margin: auto;
@@ -37,24 +37,23 @@
     background: #ffffff;
     position: sticky;
     top: 0;
-    z-index:100;
-    padding-bottom:0;
+    z-index: 100;
+    padding-bottom: 0;
   }
   .navbar-brand,
   .navbar-collapse {
     width: 50%;
-    height:100%;
+    height: 100%;
   }
-  
+
   .middleBorder {
     height: 100%;
     content: "";
     border-style: solid;
     border-color: transparent transparent transparent #ffffff;
     border-width: 0 0 95px 40px;
-    background-color:$lightGreen;
+    background-color: $lightGreen;
   }
-
 
   .navbar-collapse::after {
     content: "";
@@ -80,7 +79,7 @@
     border-radius: 50%;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

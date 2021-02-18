@@ -26,10 +26,22 @@
   font-size: 1.7rem;
 }
 
-/* Green/white slash border */
-@media (min-width: 992px) {
+// For Medium Screens
+@media (min-width: $mediumMinPx) {
+  /* Green/white slash border */
+  .carousel-caption {
+    width: 60%;
+    top: 9rem;
+  }
+}
+
+// For X-Large Screens
+@media (min-width: $xLargeMinPx) {
+  /* Green/white slash border */
   .carousel-caption {
     width: 40%;
     top: 12rem;
   }
 }
+
+

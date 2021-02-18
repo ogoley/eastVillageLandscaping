@@ -1,12 +1,12 @@
 .aboutUs {
   margin-left: 0;
-  display: inline;
+  display: inline-block;
   width: 100%;
 }
 
 .aboutUsTitle1 {
   margin-left: 0;
-  display: inline;
+  display: inline-block;
   color: white;
 }
 
@@ -14,6 +14,7 @@
   margin-left: 0;
   display: inline;
   color: $brightGreen;
+  font-weight: bold;
 }
 
 .aboutUsTitleWrapper {
@@ -29,7 +30,7 @@
 }
 
 .aboutUsParagraph {
-  color: grey;
+  color: #a5a5a5;
   font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
 }

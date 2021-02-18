@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import SingleService from "./SingleService";
 import OurServices from "./OurServices";
 import { services, ourServices } from "../../config/Services";

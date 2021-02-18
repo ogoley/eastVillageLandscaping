@@ -4,7 +4,10 @@ import { Row, Col, Button } from "react-bootstrap";
 export default function contactUs() {
   return (
     <div className="contactUs mb-3">
-      <h3 className="contactUsTitle pt-2 pb-2 mb-3">Contact Us</h3>
+      <div className="contactUsTitle pt-2 pb-2 mb-3">
+      <h3 className='mb-0 contactTitle1'>Contact Us</h3>
+      <h3 className='mb-0 contactTitle2' > Now</h3>
+      </div>
       <form id="contact-form" method="post">
         <Row className="mx-0">
           <Col className="mx-auto">

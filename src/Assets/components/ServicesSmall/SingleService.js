@@ -7,7 +7,7 @@ export default function SingleService(props) {
     <div className="imgContainer">
       <Image className="serviceImage" src={require("../../images/" + props.imgUrl)}></Image>
     </div>
-    <h5 className="pt-2">{props.title}</h5>
+    <h4 className="pt-2">{props.title}</h4>
     <p className="mb-1">
       {props.text}
     </p>
