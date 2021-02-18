@@ -5,7 +5,7 @@ export default function Navi() {
   return (
     <Navbar className="customNav" bg="light" expand="lg">
       <Navbar.Brand className="mx-auto pr-md-5" href="#home">
-        <Image src={require("../images/scapeLogo.png")} alt="Landscaping Logo" width="177" />
+        <Image src={require("../../images/scapeLogo.png")} alt="Landscaping Logo" width="177" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <div className="middleBorder"></div>

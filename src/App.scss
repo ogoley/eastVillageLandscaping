@@ -1,17 +1,16 @@
 /* Set main BG color and font*/
-  @import './Assets/styles/Settings.scss';
-  @import './Assets/styles/ServicesSmall.scss';
-  @import './Assets/styles/Navi.scss';
-  @import './Assets/styles/SlimNav.scss';
-  @import './Assets/styles/ImgSpin.scss';
-  @import './Assets/styles/ContactAndAbout.scss';
-  @import './Assets/styles/AboutUs.scss';
-  @import './Assets/styles/ContactUs.scss';
+  @import './Assets/config/Settings.scss';
+  @import './Assets/components/ServicesSmall/ServicesSmall.scss';
+  @import './Assets/components/MainNav/Navi.scss';
+  @import './Assets/components/SlimNav/SlimNav.scss';
+  @import './Assets/components/ImgCarousel/ImgCarousel.scss';
+  @import './Assets/components/ContactAndAbout/AboutUs.scss';
+  @import './Assets/components/ContactAndAbout/ContactAndAbout.scss';
+  @import './Assets/components/ContactAndAbout/ContactUs.scss';
 
 body {
   font-family: "Josefin Sans", sans-serif;
 }
-
 
 /* Set button colors */
 .btn-primary {

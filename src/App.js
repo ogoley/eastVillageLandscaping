@@ -1,9 +1,9 @@
 import React from "react";
-import Navi from "./Assets/Components/Navi";
-import SlimNav from "./Assets/Components/SlimNav";
-import ImgSpin from "./Assets/Components/ImgSpin";
-import ServicesSmall from "./Assets/Components/ServicesSmall"
-import ContactAndAbout from "./Assets/Components/ContactAndAbout"
+import Navi from "./Assets/components/MainNav/Navi";
+import SlimNav from "./Assets/components/SlimNav/SlimNav";
+import ImgCarousel from "./Assets/components/ImgCarousel/ImgCarousel";
+import ServicesSmall from "./Assets/components/ServicesSmall/ServicesSmall"
+import ContactAndAbout from "./Assets/components/ContactAndAbout/ContactAndAbout"
 import "./App.scss";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <React.Fragment>
       <SlimNav/>
       <Navi />
-      <ImgSpin></ImgSpin>
+      <ImgCarousel></ImgCarousel>
       <ServicesSmall></ServicesSmall>
       <ContactAndAbout></ContactAndAbout>
     </React.Fragment>

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SingleService from "./SingleService";
 import OurServices from "./OurServices";
-import { services, ourServices } from "../Config/Services";
+import { services, ourServices } from "../../config/Services";
 
 export default function ServicesSmall() {
   return (

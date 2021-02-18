@@ -13,6 +13,5 @@ module.exports = {
     title1: "Our",
     title2: "Services",
     text: ourServicesText
-
   }
 }
