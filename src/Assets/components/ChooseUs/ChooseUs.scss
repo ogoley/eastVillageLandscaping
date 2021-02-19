@@ -1,0 +1,42 @@
+.chooseUsContainer{
+
+}
+
+.chooseTitle1, .chooseTitle2 {
+  display: inline;
+  font-family:$primaryFont;
+}
+
+.chooseTitle2 {
+  color: $brightGreen;
+  font-weight: bold;
+}
+
+.widgetRow {
+  width:100%;
+}
+
+.widgetOuter{
+  height:8rem;
+}
+
+.widgetInner{
+  border-style: solid;
+  border-color: #dcdcdc;
+  border-width: 1px;
+  height:100%;
+}
+
+@media (min-width: $mediumMinPx) {
+
+}
+
+@media (min-width: $largeMinPx) {
+
+}
+
+@media (min-width: $xLargeMinPx) {
+  .chooseUsRow{
+    width:66%;
+  }
+}

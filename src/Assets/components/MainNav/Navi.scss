@@ -11,7 +11,7 @@
   text-align: right;
 }
 .navbar-collapse {
-  background-color: #a2c046;
+  background-color: white;
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -21,12 +21,12 @@
   margin-bottom: auto;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: a2c046;
+  color: $deepGrey;
 }
 .navbar-toggler {
   position: absolute;
-  right: 2.3rem;
-  top: 1.5rem;
+  left: 2rem;
+  top: 2rem;
 }
 
 @media (min-width: $largeMinPx) {
@@ -44,6 +44,10 @@
   .navbar-collapse {
     width: 50%;
     height: 100%;
+  }
+
+  .navbar-collapse {
+    background-color: #a2c046;
   }
 
   .middleBorder {
@@ -81,5 +85,6 @@
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
+    color: white;
   }
 }

@@ -8,7 +8,7 @@ export default function ourServices(props) {
       <h2 className="title1">{props.title1} </h2>
       <h2 className="title2"> {props.title2}</h2>
     </div>
-    <p className="py-2 mb-0">
+    <p className="py-2 mb-3">
       {props.text}
     </p>
     <h4 className="pushLinkDown">

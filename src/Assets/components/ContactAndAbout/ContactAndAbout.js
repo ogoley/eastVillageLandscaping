@@ -5,12 +5,12 @@ import ContactUs from "./ContactUs";
 
 export default function ContactAndAbout() {
   return (
-    <Container fluid className="aboutUsContainer px-0 pb-md-3">
-      <Row className="justify-content-center aboutUsRow mx-auto">
-        <Col xs={12} md={5} className='pt-3 pt-md-4 aboutUsCol'>
+    <Container fluid className="aboutUsContainer px-0 ">
+      <Row className="py-3 py-md-5 justify-content-center aboutUsRow mx-auto">
+        <Col xs={12} lg={6} className='aboutUsCol'>
             <AboutUs></AboutUs>
         </Col>
-        <Col xs={12} md={5} className='pt-3 pt-md-4 aboutUsCol'>
+        <Col xs={12} lg={6} className='aboutUsCol'>
             <ContactUs></ContactUs>
         </Col>
       </Row>

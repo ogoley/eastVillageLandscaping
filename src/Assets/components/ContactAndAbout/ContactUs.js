@@ -3,14 +3,15 @@ import { Row, Col, Button } from "react-bootstrap";
 
 export default function contactUs() {
   return (
-    <div className="contactUs mb-3">
+    <div className="contactUs">
       <div className="contactUsTitle pt-2 pb-2 mb-3">
-      <h3 className='mb-0 contactTitle1'>Contact Us</h3>
-      <h3 className='mb-0 contactTitle2' > Now</h3>
-      </div>
+        
+        <h3 className='mb-0 contactTitle1'>Send Us A</h3>
+        <h3 className='mb-0 contactTitle2' > Message</h3>
+        </div>
       <form id="contact-form" method="post">
-        <Row className="mx-0">
-          <Col className="mx-auto">
+        <Row xs={10}className="mx-0">
+          <Col xs={12} sm={6} lg={12} className="mx-auto">
             <input
               type="text"
               id="name-input"
@@ -39,7 +40,6 @@ export default function contactUs() {
               rows="3"
               placeholder="Your Message"
               className="form-control contactInput"
-              style={{height:"150px"}}
             ></textarea>
             <br />
           </Col>

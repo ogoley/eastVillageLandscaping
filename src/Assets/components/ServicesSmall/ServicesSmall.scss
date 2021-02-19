@@ -3,7 +3,6 @@
   border-style: solid;
   border-color: #dcdcdc;
   border-width: 0 0 1px 0;
-  display:inline-block;
 }
 
 .serviceSmall p {
@@ -50,6 +49,7 @@
 
 .title1 {
   display: inline;
+  color: $deepGrey;
 }
 
 .title2 {
@@ -62,29 +62,6 @@
   vertical-align: top;
 }
 
-@media (min-width: $largeMinPx) {
-  .servicesSmallReadMe {
-    border-style: none;
-    border-color: none;
-    border-width: none;
-  }
-  .serviceSmall {
-    border: 6px solid $borderGrey;
-    border-radius: 1px;
-    padding: 1rem;
-  }
-  .pushLinkDown {
-    position: absolute;
-    bottom: 3px;
-  }
-}
-
-@media (min-width: $xLargeMinPx) {
-  .serviceContainer {
-    width: 75%;
-  }
-}
-
 .serviceContainer h1,
 .serviceContainer h2,
 .serviceContainer h4,
@@ -94,4 +71,35 @@
 
 .serviceContainer h4 {
   font-size: 1.3rem;
+  font-weight:550;
+  color:$deepGrey;
 }
+
+.serviceRow {
+  width: 100%;
+}
+
+@media (min-width: $mediumMinPx) {
+  .serviceSmall {
+    border: 6px solid $borderGrey;
+    border-radius: 1px;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: $largeMinPx) {
+  .pushLinkDown {
+    position: absolute;
+    bottom: 3px;
+    margin-top:3px;
+  }
+}
+
+@media (min-width: $xLargeMinPx) {
+  .serviceRow {
+    width: 66%;
+  }
+}
+
+
+

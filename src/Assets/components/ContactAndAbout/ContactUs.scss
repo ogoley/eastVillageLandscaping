@@ -2,6 +2,7 @@
   border: 1px solid #c4c4c4;
   width: 100%;
   font-family: $primaryFont;
+  height: 100%;
 }
 
 .contactUsTitle {
@@ -22,6 +23,11 @@
 .contactUs textarea {
   width: 100%;
   padding: 5px 5px;
+  font-family: $primaryFont;
+}
+
+.contactUs textarea {
+  height: 80%;
 }
 
 .contactUs button {
@@ -30,11 +36,19 @@
 }
 
 .contactTitle1 {
- display: inline;
- color: white;
-
+  display: inline;
+  color: white;
 }
 
 .contactTitle2 {
- display: inline
+  display: inline;
+}
+
+#contact-form {
+  display:inline;
+}
+
+.contactUs .row {
+  margin-left: 0;
+  margin-right: 0;
 }
