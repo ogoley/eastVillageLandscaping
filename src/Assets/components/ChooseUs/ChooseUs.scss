@@ -1,7 +1,3 @@
-.chooseUsContainer{
-
-}
-
 .chooseTitle1, .chooseTitle2 {
   display: inline;
   font-family:$primaryFont;
@@ -17,15 +13,15 @@
 }
 
 .widgetOuter{
-  min-height:10rem;
-  padding:10px;
+  min-height:11rem;
+  padding:15px;
   font-family:$primaryFont;
 }
 
 .widgetInner{
   height:100%;
   border-style: solid;
-  border-color: #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.08);
   border-width: 1px;
 }
 
@@ -37,13 +33,16 @@
 
 .widgetInner .title {
   text-align: left;
-  font-weight: 700;
+  font-weight: 600;
+  font-size:1.2rem;
+  border-color: rgba(0, 0, 0, 0.08);
+
 }
 
 .widgetInner p {
   font-family:$primaryFont;
   color:$grey;
-  font-size:.95rem;
+  font-size:.90rem;
 }
 
 @media (min-width: $mediumMinPx) {

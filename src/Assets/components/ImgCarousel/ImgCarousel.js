@@ -5,7 +5,7 @@ export default function ImgCarousel() {
   return (
     <Carousel data-ride="carousel">
       <Carousel.Item>
-        <img className="d-block w-100" src={require("../../images/finishedYard.jpg")} alt="First slide" />
+        <img className="d-block w-100" src={require("../../images/scene.jpg")} alt="First slide" />
         <Carousel.Caption className="mx-auto">
           <p>PROVEN TRACK RECORD</p>
           <h3>
@@ -31,7 +31,7 @@ export default function ImgCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="d-block w-100" src={require("../../images/finishedYard.jpg")} alt="First slide"/>
+        <Image className="d-block w-100" src={require("../../images/plants.jpg")} alt="First slide"/>
         <Carousel.Caption className="mx-auto">
           <p>PROVEN TRACK RECORD</p>
           <h3>

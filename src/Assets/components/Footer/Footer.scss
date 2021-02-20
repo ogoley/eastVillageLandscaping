@@ -1,0 +1,93 @@
+.footerContainer {
+  background-color: $deeperGrey;
+  text-align: center;
+  font-family: $primaryFont;
+  color: $lightGrey;
+}
+
+.gaurenteeImg {
+  max-height: 5.5rem;
+}
+
+.gaurenteeCol {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.footerRight {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.footerRow h3 {
+  font-size: 1rem;
+  font-weight:600;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+.footerRow h4 {
+  font-size: .9rem;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+.footerRow h5 {
+  font-size: 0.7rem;
+  margin-top:2px;
+  margin-bottom:2px;
+  
+}
+
+
+.payments {
+  display:inline;
+}
+
+.payments i {
+  padding: 3px;
+  font-size: 1.8rem;
+}
+
+@media (min-width: $mediumMinPx) {
+
+  .footerRight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+  }
+  
+  .footerLeft {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footerRow {
+    width: 95%;
+  }
+}
+
+@media (min-width: $largeMinPx) {
+  
+}
+
+@media (min-width: $xLargeMinPx) {
+  .footerRow {
+    width: 66%;
+  }
+}

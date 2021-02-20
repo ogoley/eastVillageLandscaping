@@ -3,7 +3,7 @@
 }
 .carousel-item {
   height: 650px;
-  background-color: grey;
+  background-color: rgb(3, 3, 3);
 }
 
 .carousel-item img {
@@ -12,10 +12,11 @@
   top: 0;
   left: 0;
   min-height: 650px;
-  opacity: 0.85;
+  opacity: 0.5;
 }
 .carousel-caption {
   top: 3rem;
+  text-shadow: $lightGreen 0px 0 17px;
 }
 .carousel-caption p {
   font-size: 1.9rem;
