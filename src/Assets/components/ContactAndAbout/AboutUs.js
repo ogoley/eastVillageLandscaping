@@ -21,6 +21,15 @@ export default function AboutUs() {
         Again, this is sample text for the business and it's supposed to represent how amazing we are and how good of a job we do!
         Again, this is sample text for the business and it's supposed to represent how amazing we are and how good of a job we do!
       </p>
+      <a className="phone" href={"Tel: 413-847-0617"}>
+      <i class="fas fa-phone"></i>
+      <h4> 413-847-0617</h4>
+      </a>
+      <br/>
+      <a className="email" href={"mailto: contact@eastvillagelandscaping.com"}>
+      <i class="fas fa-envelope"></i>
+      <h4> contact@eastvillagelandscaping.com</h4>
+      </a>
       <h4 className="aboutUsReadMore py-2">
         <a href="#/">READ MORE</a>
       </h4>

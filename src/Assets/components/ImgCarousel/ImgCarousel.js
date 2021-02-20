@@ -9,7 +9,7 @@ export default function ImgCarousel() {
         <Carousel.Caption className="mx-auto">
           <p>PROVEN TRACK RECORD</p>
           <h3>
-            We've been serving the Hamden County for over 20 years; our reputation is well known. We've been helping our
+            We've been serving the Hampden County for over 20 years; our reputation is well known. We've been helping our
             community take care of thier landscaping and maintenence needs for generations now.
           </h3>
           <Button className="mt-2">
@@ -33,10 +33,9 @@ export default function ImgCarousel() {
       <Carousel.Item>
         <Image className="d-block w-100" src={require("../../images/plants.jpg")} alt="First slide"/>
         <Carousel.Caption className="mx-auto">
-          <p>PROVEN TRACK RECORD</p>
+          <p>RELIABLE SERVICE</p>
           <h3>
-            We've been serving the Hamden County for over 20 years; our reputation is well known. We've been helping our
-            community take care of thier landscaping and maintenence needs for generations now.
+            We have a growing list of customers we serve on a regular basis. We've grown our business off of our amazing reputation and plan to do the same moving forward.
           </h3>
           <Button className="mt-2">
             About Us

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 
@@ -11,7 +11,7 @@ export default function ContactAndAbout() {
             <AboutUs></AboutUs>
         </Col>
         <Col xs={12} lg={6} className='aboutUsCol'>
-            <ContactUs></ContactUs>
+            <ContactUs ></ContactUs>
         </Col>
       </Row>
     </Container>

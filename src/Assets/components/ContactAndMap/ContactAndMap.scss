@@ -1,0 +1,43 @@
+.contactAndMapContainer {
+  background-color:$deeperGrey;
+  width:100%;
+  color:white;
+  font-family:$primaryFont;
+
+  
+}
+
+.contactCol h1 {
+  color:$brightGreen;
+  font-weight:600;
+}
+
+.contactPhone, .contactEmail {
+  font-size:1rem;
+  color:$brightGreen;
+  display:inline;
+}
+.contactPhone h5, .contactEmail h5 {
+  font-weight:500;
+  color: white;
+  display: inline;
+}
+
+.contactPhone h5:hover, .contactEmail h5:hover {
+  color: $brightGreen;
+}
+
+.contactCol {
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: $xLargeMinPx) {
+  .contactAndMapRow {
+    width: 66%;
+  }
+}
+

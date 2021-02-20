@@ -1,0 +1,65 @@
+.aboutUsMain {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.aboutUsMainContainer {
+  // background-image: url("../images/twigs.jpg");
+  background-repeat: repeat;
+  background-color: rgb(124, 124, 124);
+  background-image: url('../../images/greyLeafPattern.png');
+  position: relative;
+  font-family: "Lora", serif;
+  width: 100%;
+}
+
+.aboutUsMainTitle1 {
+  margin-left: 0;
+  display: inline-block;
+  color: $deepGrey;
+}
+
+.aboutUsMainTitle2 {
+  margin-left: 0;
+  display: inline;
+  color: $brightGreen;
+  font-weight: bold;
+}
+
+.aboutUsMainTitleWrapper {
+  padding: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c4c4c4;
+  font-family: $primaryFont;
+}
+
+.aboutUsMainTitleWrapper h1 {
+  font-size:2.3rem;
+}
+
+.aboutUsMainParagraph {
+  color: #a5a5a5;
+  font-family: $primaryFont;
+  font-size: 0.85rem;
+}
+
+.aboutUsMainReadMore {
+  font-size:1rem;
+}
+
+.aboutUsLogo, .aboutUsGaurentee {
+  max-height: 10rem;
+}
+
+
+
+
+@media (min-width: $xLargeMinPx) {
+  .aboutUsMainRow {
+    width: 66%;
+  }
+}
+
+/* Mobile Rules Below */

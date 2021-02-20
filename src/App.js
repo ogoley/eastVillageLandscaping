@@ -1,11 +1,8 @@
 import React from "react";
-import Navi from "./Assets/components/MainNav/Navi";
 import SlimNav from "./Assets/components/SlimNav/SlimNav";
-import ImgCarousel from "./Assets/components/ImgCarousel/ImgCarousel";
-import ServicesSmall from "./Assets/components/ServicesSmall/ServicesSmall";
-import ContactAndAbout from "./Assets/components/ContactAndAbout/ContactAndAbout";
-import ChooseUs from "./Assets/components/ChooseUs/ChooseUs";
-import Footer from "./Assets/components/Footer/Footer"
+import Navi from "./Assets/components/MainNav/Navi";
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import { HomePage, AboutUsPage, } from "./Assets/components/Pages/Pages"
 import "./App.scss";
 
 function App() {
@@ -13,11 +10,10 @@ function App() {
     <React.Fragment>
       <SlimNav />
       <Navi />
-      <ImgCarousel></ImgCarousel>
-      <ServicesSmall></ServicesSmall>
-      <ContactAndAbout></ContactAndAbout>
-      <ChooseUs></ChooseUs>
-      <Footer></Footer>
+      <Router>
+        <Route path='/' exact component={HomePage}/>
+        <Route path='/about' exact component={AboutUsPage}/>
+      </Router>
     </React.Fragment>
   );
 }

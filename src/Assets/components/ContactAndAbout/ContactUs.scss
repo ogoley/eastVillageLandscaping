@@ -52,3 +52,14 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+
+@media (min-width: $largeMinPx) {
+  .anchor {
+    display: block;
+    height: 120px;
+    margin-top: -120px;
+    visibility: hidden;
+  }
+  
+}

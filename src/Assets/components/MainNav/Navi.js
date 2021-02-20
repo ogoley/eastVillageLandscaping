@@ -11,16 +11,16 @@ export default function Navi() {
       <div className="middleBorder"></div>
       <Navbar.Collapse className="mx-md-auto mx-2" id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link className="px-3  text-nowrap" href="#home">
+          <Nav.Link className="px-3  text-nowrap" href="/">
             Home
           </Nav.Link>
-          <Nav.Link className="px-3  text-nowrap has-divider"  href="#link">
+          <Nav.Link className="px-3  text-nowrap has-divider"  href="/about">
             About Us
           </Nav.Link>
           <Nav.Link className="px-3  text-nowrap has-divider"  href="#link">
             Services
           </Nav.Link>
-          <Nav.Link className="px-3 text-nowrap has-divider"  href="#link">
+          <Nav.Link className="px-3 text-nowrap has-divider"  href="/#ContactUs">
             Contact Us
           </Nav.Link>
         </Nav>
