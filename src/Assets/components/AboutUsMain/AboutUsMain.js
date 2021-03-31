@@ -12,26 +12,15 @@ export default function AboutUsMain() {
               <h1 className="aboutUsMainTitle2"> Our Business</h1>
             </div>
             <p className="aboutUsMainParagraph pt-2 mb-0">
-              East Village Landscaping was started 30 years ago by the current owner, Darrin. It started when he was only 16 years
-              old and at that point Darrin didn't have a car and would get rides from his father so he could earn some extra cash
-              as a kid. After 30 years that childhood venture turned into a full scale, professional landscaping business.
+              Established in 2002 by Darrin Adams, East Village Landscaping is a family owned business focused on providing the
+              best quality service in the market. Our goal is to establish and maintain long-term relationships with customers
+              built on honesty, value, and superior performance. Most of our customers have been with us from the very beginning
+              and have become familiar with not only our work, but with our family.
             </p>
             <p className="aboutUsMainParagraph pt-2 mb-0">
-              East Village Landscaping offers a wide variety of services to the greater springfield area and surrounding towns. We
-              take on all sizes of project from small mowing jobs to industrial plot maintence. Aside from typical landscaping
-              services we offer a range of other possibilites like gardens, stone-walls and fire-places.
+              Thank you for visiting our website. We look forward to the opportunity to work with you.
             </p>
-            <p className="aboutUsMainParagraph pt-2 mb-0">
-              East Village Landscaping was started 30 years ago by the current owner, Darrin. It started when he was only 16 years
-              old and at that point Darrin didn't have a car and would get rides from his father so he could earn some extra cash
-              as a kid. After 30 years that childhood venture turned into a full scale, professional landscaping business.
-            </p>
-            <p className="aboutUsMainParagraph pt-2 mb-0">
-              East Village Landscaping offers a wide variety of services to the greater springfield area and surrounding towns. We
-              take on all sizes of project from small mowing jobs to industrial plot maintence. Aside from typical landscaping
-              services we offer a range of other possibilites like gardens, stone-walls and fire-places.
-            </p>
-           
+
             <h4 className="aboutUsMainReadMore py-2">
               <a href="#/">READ MORE</a>
             </h4>

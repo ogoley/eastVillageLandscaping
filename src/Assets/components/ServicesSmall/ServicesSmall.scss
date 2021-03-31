@@ -75,7 +75,7 @@
   color:$deepGrey;
 }
 
-.serviceRow {
+.serviceSmallRow {
   width: 100%;
 }
 
@@ -85,7 +85,7 @@
     border-radius: 1px;
     padding: 1rem;
   }
-  .serviceRow {
+  .serviceSmallRow {
     width: 95%;
   }
 }
@@ -99,7 +99,7 @@
 }
 
 @media (min-width: $xLargeMinPx) {
-  .serviceRow {
+  .serviceSmallRow {
     width: 66%;
   }
 }

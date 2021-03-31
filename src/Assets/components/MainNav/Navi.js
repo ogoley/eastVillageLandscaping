@@ -17,7 +17,7 @@ export default function Navi() {
           <Nav.Link className="px-3  text-nowrap has-divider"  href="/about">
             About Us
           </Nav.Link>
-          <Nav.Link className="px-3  text-nowrap has-divider"  href="#link">
+          <Nav.Link className="px-3  text-nowrap has-divider"  href="/services">
             Services
           </Nav.Link>
           <Nav.Link className="px-3 text-nowrap has-divider"  href="/#ContactUs">

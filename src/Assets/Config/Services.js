@@ -5,9 +5,12 @@ const ourServicesText = "This is our example text of the services we offer. We h
 
 module.exports = {
   services: [
-  { title: "Landscaping and Gardening", text: landscapingText, imgUrl: 'lawn.jpg' },
-  { title: "Snow Removal", text: plowingText, imgUrl: 'plow.jpg' },
-  { title: "Stone & Cement Paving", text: stoneAndCementText, imgUrl: 'stonePave.jpeg'},
+  { title: "Landscaping", text: landscapingText, imgUrl: 'lawn.jpg', imgUrl2:"scene.jpg", imgUrl3:"yard2.jpg" },
+  { title: "Snow Removal", text: plowingText, imgUrl: 'plow.jpg', imgUrl2:"lawn.jpg", imgUrl3:"lawn.jpg" },
+  { title: "Stone & Cement Paving", text: stoneAndCementText, imgUrl: 'stonePave.jpeg', imgUrl2:"stonePave.jpeg", imgUrl3:"stonePave.jpeg"},
+  { title: "Landscaping", text: landscapingText, imgUrl: 'lawn.jpg', imgUrl2:"lawn.jpg", imgUrl3:"lawn.jpg" },
+  { title: "Snow Removal", text: plowingText, imgUrl: 'plow.jpg', imgUrl2:"lawn.jpg", imgUrl3:"lawn.jpg" },
+  { title: "Stone & Cement Paving", text: stoneAndCementText, imgUrl: 'stonePave.jpeg', imgUrl2:"stonePave.jpeg", imgUrl3:"stonePave.jpeg"},
   ],
   ourServices: {
     title1: "Our",

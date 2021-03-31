@@ -1,0 +1,25 @@
+.titleContainer {
+  background-image: url("../../images/leafPattern.png");
+  min-height: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align:center;
+}
+
+.titleRow h1 {
+  font-size: 3rem;
+}
+
+.serviceTitle1, .serviceTitle2 {
+  display: inline;
+  font-weight:600;
+  color:$brightGreen;
+}

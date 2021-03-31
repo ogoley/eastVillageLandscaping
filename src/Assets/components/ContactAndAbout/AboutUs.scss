@@ -40,13 +40,15 @@
 }
 
 
-.phone, .email {
+.aboutUs .phone, .email {
   display:inline;
-  font-size:1rem;
-  color:$brightGreen
+
+  color:$brightGreen;
+  border:none;
 }
 
-.phone h4, .email h4 {
+.aboutUs .phone h4, .email h4 {
+  font-size:1rem;
   font-weight:500;
   display:inline;
   color: white;
@@ -54,8 +56,14 @@
   
 }
 
-.phone h4:hover, .email h4:hover {
+.aboutUs .phone h4:hover, .email h4:hover {
   color: $brightGreen;
 }
 
 /* Mobile Rules Below */
+
+@media (min-width: $mediumMinPx) {
+  .aboutUs .phone h4, .email h4 {
+    font-size:1.3rem;
+  }
+}

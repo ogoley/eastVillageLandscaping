@@ -1,0 +1,73 @@
+
+.serviceListItem {
+  font-size:.9rem;
+}
+
+.serviceListItem.active {
+  background-color:$lightGreen;
+  border-color:$lightGreen;
+}
+
+.servicesContainer {
+  font-family:$primaryFont;
+}
+
+
+ .list-group-item-service:first-child, .list-group-item-service:last-child {
+  border-radius: 0;
+}
+
+.list-group-item-service:hover {
+  color: $lightGreen
+}
+
+.list-group-item-service {
+  background-color:$lighterGrey;
+  font-weight:700;
+  color:$deepGrey;
+}
+
+.list-group-item-service+.list-group-item-service{
+  border-top-width: 1px;
+}
+
+.serviceRow{
+  width:100%;
+}
+
+.serviceImage {
+  width:100%;
+  margin-top:.3rem;
+  margin-bottom: .3rem;
+}
+
+.textAndImage {
+  display: flex;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.serviceImage {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+
+@media (min-width: $mediumMinPx) {
+  .servicesRow {
+    width: 95%;
+  }
+}
+
+@media (min-width: $xLargeMinPx) {
+  .servicesRow {
+    width: 66%;
+  }
+}
