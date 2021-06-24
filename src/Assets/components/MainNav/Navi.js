@@ -4,8 +4,8 @@ import { Navbar, Nav, Image } from "react-bootstrap";
 export default function Navi() {
   return (
     <Navbar className="customNav" bg="light" expand="lg">
-      <Navbar.Brand className="mx-auto pr-md-5" href="#home">
-        <Image src={require("../../images/scapeLogo.png")} alt="Landscaping Logo" width="177" />
+      <Navbar.Brand className="mx-auto py-0 pr-lg-5" href="#home">
+        <Image src={require("../../images/eastVillage.svg")} alt="Landscaping Logo"/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <div className="middleBorder"></div>

@@ -11,7 +11,7 @@ export default function ServicesSmall() {
   return (
     <Container fluid className="serviceContainer px-0">
       <Row className="justify-content-center serviceSmallRow py-md-4 py-lg-5 mx-auto">
-        <Col md={3} className="serviceSmall m-2 m-md-0">
+        <Col md={3} className="serviceSmall">
           <OurServices title1={ourServices.title1} title2={ourServices.title2} text={ourServices.text}></OurServices>
         </Col>
         <Col md={9}>

@@ -4,16 +4,25 @@
 .customNav {
   margin: auto;
   padding: 0;
-  padding-bottom: 1rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: $primaryFont;
+  font-weight:500;
 }
 .navbar-brand {
+  height: $navHeight;
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  img {
+    height: $navHeight - 30px;
+    width: auto;
+  }
 }
 .navbar-collapse {
   background-color: white;
   font-size: 1.2rem;
-  font-weight: 700;
 }
 .navbar-nav a,
 .navbar-nav {
@@ -23,9 +32,10 @@
 .navbar-light .navbar-nav .nav-link {
   color: $deepGrey;
 }
+
 .navbar-toggler {
   position: absolute;
-  left: 2rem;
+  left: 1.5rem;
   top: 2rem;
 }
 
@@ -33,7 +43,6 @@
   .customNav {
     width: 100%;
     margin: auto;
-    height: 95px;
     background: #ffffff;
     position: sticky;
     top: 0;
@@ -43,11 +52,15 @@
   .navbar-brand,
   .navbar-collapse {
     width: 50%;
-    height: 100%;
+    height: $navHeight;
+    img {
+      height: $navHeight - 10px;
+      width: auto;
+    }
   }
 
   .navbar-collapse {
-    background-color: #a2c046;
+    background-color: $lightGreen;
   }
 
   .middleBorder {
@@ -55,7 +68,7 @@
     content: "";
     border-style: solid;
     border-color: transparent transparent transparent #ffffff;
-    border-width: 0 0 95px 40px;
+    border-width: 0 0 $navHeight 40px;
     background-color: $lightGreen;
   }
 

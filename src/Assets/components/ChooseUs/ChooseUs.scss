@@ -1,3 +1,7 @@
+.chooseUsContainer{
+  background-color:white;
+}
+
 .chooseTitle1, .chooseTitle2 {
   display: inline;
   font-family:$primaryFont;
@@ -43,6 +47,10 @@
   font-family:$primaryFont;
   color:$grey;
   font-size:.90rem;
+}
+
+.chooseUsRow{
+  width:95%;
 }
 
 @media (min-width: $mediumMinPx) {

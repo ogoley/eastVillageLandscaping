@@ -5,7 +5,7 @@ export default function AboutUsMain() {
   return (
     <Container fluid className="aboutUsMainContainer px-0">
       <Row className="py-3 py-md-5 justify-content-center aboutUsMainRow mx-auto">
-        <Col xs={12} lg={8} className="aboutUsMainCol">
+        <Col xs={12} lg={9} className="aboutUsMainCol">
           <div className="aboutUsMain">
             <div className="aboutUsMainTitleWrapper">
               <h1 className="aboutUsMainTitle1">About</h1>
@@ -26,10 +26,7 @@ export default function AboutUsMain() {
             </h4>
           </div>
         </Col>
-        <Col xs={12} lg={4} className="aboutUsMainCol">
-          <Row>
-            <Image className="aboutUsLogo mx-auto" src={require("../../images/scapeLogo.png")}></Image>
-          </Row>
+        <Col xs={12} lg={3} className="aboutUsMainCol">
           <Row>
             <Image className="aboutUsGaurentee mx-auto" src={require("../../images/gaurentee.png")}></Image>
           </Row>
